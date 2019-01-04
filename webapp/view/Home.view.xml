@@ -1,0 +1,12 @@
+<mvc:View controllerName="com.cf.ui5OnCloudFoundry.controller.Home" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<App id="idAppControl">
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+				    <Button text="Heyyyyyyyy Im on Cloud Foundry" class="sapUiLargeMargin" type="Accept"></Button>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
